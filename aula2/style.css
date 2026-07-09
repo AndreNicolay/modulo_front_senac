@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+.gengar {
+    height: 200px;
+    width: 200px;
+}
+
+#fantasma {
+    height: 400px;
+    width: 400px;
+}
+
+section {
+    border: 1px solid #0000ff;
+    padding: 6px 42px 6px 42px;
+    margin-bottom: 12px;
+    background-color: #8a2be2;
+}
+
+section p {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Comic Relief", system-ui;
+}
+
+ol, ul {
+    margin: 20px;
+}
