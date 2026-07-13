@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 25px 40px;
+}
+
+.logo {
+  color: #e50914;
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 42px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.profiles {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 45px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.avatar {
+  width: 140px;
+  height: 140px;
+  border-radius: 6px;
+  border: 3px solid transparent;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile span {
+  margin-top: 12px;
+  color: #808080;
+  font-size: 16px;
+  transition: color 0.2s ease;
+}
+
+/* Hover em cada perfil individualmente */
+.profile:hover .avatar {
+  border-color: #fff;
+  transform: scale(1.05);
+}
+
+.profile:hover span {
+  color: #fff;
+}
+
+.avatar-pikachu { 
+  background: #ffff00; 
+}
+
+.avatar-gengar { 
+  background: #800080; 
+}
+
+.avatar-squirtle {
+  background: #0167ff; 
+}
+
+.avatar-charmander {
+  background: #ff0000; 
+}
+
+.add-profile .avatar {
+  background-color: transparent;
+  border: 2px solid #808080;
+}
+
+.add-profile .avatar img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+
+.add-profile:hover .avatar {
+  border-color: #fff;
+}
+
+.add-profile:hover .avatar img {
+  opacity: 1;
+}
+
+.manage-btn {
+  padding: 12px 30px;
+  background: transparent;
+  border: 1px solid #808080;
+  color: #808080;
+  font-size: 15px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.manage-btn:hover {
+  border-color: #fff;
+  color: #fff;
+}
