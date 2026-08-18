@@ -1,38 +1,38 @@
 export const produtos = [
     {
         id: "1",
-        nome: "Geladeira",
-        preco: "2300,00",
-        imagem: "./imgs/geladeira.jpg"
+        nome: "Gol G3 1.0 Flex 1999",
+        preco: "10.100,00",
+        imagem: "./imgs/gol.jpg"
     },
     {
         id: "2",
-        nome: "Sofá 3 lugares",
-        preco: "2459,00",
-        imagem: "./imgs/sofa.jpg"
+        nome: "Chevette 1.6 Gasolina 1987",
+        preco: "9.500,00",
+        imagem: "./imgs/chevette.jpg"
     },
     {
         id: "3",
-        nome: "Celular Xiaomi",
-        preco: "2189,90",
-        imagem: "./imgs/celular.jpg"
+        nome: "Opala Comodoro 4.1 Gasolina 1980",
+        preco: "70.000,00",
+        imagem: "./imgs/opala-comodoro.jpg"
     },
     {
         id: "4",
-        nome: "Notebook",
-        preco: "4589,00",
-        imagem: "./imgs/notebook.jpg"
+        nome: "Golf GTI 1.8 20V Turbo 2000",
+        preco: "25.600,00",
+        imagem: "./imgs/golf-gti.jpg"
     },
     {
         id: "5",
-        nome: "Caneca",
-        preco: "59,00",
-        imagem: "./imgs/caneca.jpg"
+        nome: "Fusca 1300L 1975",
+        preco: "24.500,00",
+        imagem: "./imgs/fusca.jpg"
     },
     {
         id: "6",
-        nome: "Playstation 4",
-        preco: "2229,89",
-        imagem: "./imgs/playstation-4.jpg"
+        nome: "Peugeot 206 1.4 Flex 2007",
+        preco: "12.000,00",
+        imagem: "./imgs/peugeot.jpg"
     }
 ]
