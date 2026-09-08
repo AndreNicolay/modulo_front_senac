@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokédex - Detalhe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="topbar__inner">
+      <a class="topbar__back" href="../index.html">&larr; Voltar</a>
+      <h1 class="topbar__title">Pokédex</h1>
+    </div>
+  </header>
+
+  <main class="container">
+    <p id="status" class="status">Carregando pokémon...</p>
+
+    <article id="detail" class="detail" hidden>
+      <div class="detail__hero">
+        <span id="detailId" class="detail__id"></span>
+        <img id="detailImg" class="detail__img" alt="">
+        <h2 id="detailName" class="detail__name"></h2>
+        <div id="detailTypes" class="detail__types"></div>
+      </div>
+
+      <dl id="statsList" class="stats"></dl>
+    </article>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

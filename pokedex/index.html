@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokédex</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="topbar__inner">
+      <div class="topbar__lamp" aria-hidden="true"></div>
+      <h1 class="topbar__title">Pokédex</h1>
+    </div>
+  </header>
+
+  <main class="container">
+    <p id="status" class="status">Carregando pokémons...</p>
+
+    <section id="grid" class="grid" aria-live="polite"></section>
+
+    <nav class="pager" id="pager" hidden>
+      <button id="prevBtn" class="pager__btn" type="button">&larr; Anterior</button>
+      <span id="pageInfo" class="pager__info">Página 1</span>
+      <button id="nextBtn" class="pager__btn" type="button">Próxima &rarr;</button>
+    </nav>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
